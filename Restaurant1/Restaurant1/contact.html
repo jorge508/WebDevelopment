@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+	<head>
+	<body>
+		<div id="title">
+		<h1><b>Northland Burgers & Fries</b></h1><br />
+		</div>
+		<div id="navigation">
+		<hr />
+			<p><a href="home.html" target="_self">Home</a>
+			<a href="menu.html" target="_self">Menu</a>
+			<a href="contact.html" target="_self">Contact Us</a><p>
+			<hr />
+		</div>
+		<div id="content">
+			<form action="thiswebsite.html" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br /><br />
+				<label for="email">Email:</label>					<input type="text" id="email" name="email"><br /><br />
+				<label for="phone">Phone:</label>
+				<input type="text" id="phone" name="phone"><br /><br />
+				<label for="inquiry">Reason for Inquiry:</label>
+				<select id="inquiry" name="inquiry">
+					<option value="catering" selected>Catering</option>
+					<option value="party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br /><br />
+				<label for="info">Additional Information:</label>
+				<textarea id="info"></textarea><br /><br />
+				<label for="radio">Have you been to the restaurant?</label>
+				<input type="radio" id="choice1" name="questionnaire" value="no" checked>
+				<label for="choice1">No</label>
+				<input type="radio" id="choice2" name="questionnaire" value="yes">
+				<label for="choice2">Yes</label><br /><br />
+				<label for="days">Best days to contact you:</label>
+				<input type="checkbox" id="monday" name="day" value="monday">
+				<label for="monday">M</label>
+				<input type="checkbox" id="tuesday" name="day" value="tuesday">
+				<label for="tuesday">T</label>
+				<input type="checkbox" id="wednesday" name="day" value="wednesday">
+				<label for="wednesday">W</label>
+				<input type="checkbox" id="thursday" name="day" value="thursday">
+				<label for="thursday">Th</label>
+				<input type="checkbox" id="friday" name="day" value="friday">
+				<label for="friday">F</label><br /><br />
+				<input type="submit" name="submit" value="Send Request">
+			</form>
+		</div>
+		<div id="footer">
+		<hr />
+			<footer>
+				<p> 1234 American Blvd, Minneapolis, MN, 55408 </p>
+				<p> 612-123-4567
+			</footer>
+		</div>
+	</body>
+</html>
